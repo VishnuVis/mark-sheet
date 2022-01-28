@@ -1,0 +1,33 @@
+form tkinter import *
+form tkinter import messagebox
+from PIL import Image,ImageDraw,ImageFont
+Import math
+global m
+global p
+global c
+global t
+global a
+def calc():
+     m = float(math1.get())
+     p = float(physics1.get())
+     c = float(computer1.get())
+     t = (m+p+c)
+     a = t/3
+     total1.insert(0,t)
+     avg1.insert(0,a)
+     if (a>=95):
+        grade1.insert(0,"o")
+     elif (a>=90 and a<95):
+          grade1.insert(0,"A1")
+     elif (a >= 90 and a < 90):
+          grade1.insert(0, "A")
+     elif (a >= 90 and a < 80):
+          grade1.insert(0, "B")
+     elif (a >= 90 and a < 70):
+          grade1.insert(0, "C")
+     elif (a >= 90 and a < 65):
+          grade1.insert(0, "D")
+     elif (a >= 90 and a < 60):
+          grade1.insert(0, "Y")
+     else:
+          grade1.insert(0,"fail")
